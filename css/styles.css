@@ -1,0 +1,155 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+/* heading */
+.big-heading{
+  font-weight:900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading{
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+/* Section */
+.colored-section{
+  background: #ff4c68;
+  color:#fff;
+}
+.white-section{
+  background: #fff;
+}
+
+.container-fluid{
+  padding:7% 15%;
+}
+
+p{
+  color:#8f8f8f;
+  width: 75%;
+  margin: 20px auto;
+}
+
+
+/* navigation bar section */
+.navbar{
+  padding:0 0 4.5rem;
+  /* top left and right bottom */
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light"
+}
+/* download button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+/* title */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right:30%;
+}
+#title .container-fluid{
+  padding: 3% 15% 6%;
+  text-align: left;
+}
+/* Features */
+#features{
+  position: relative;
+}
+.features{
+margin: 10% auto;
+line-height: 2;
+}
+.features-heading{
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top:5px;
+}
+
+.features i{
+  font-size: 3rem;
+  color: #ef8172;
+}
+.features i:hover{
+   color: #ff4c68;
+}
+/* Testimonial section */
+#testimonials{
+  background:#ef8172;
+}
+
+.testimonial-img{
+  width:10%;
+  border-radius: 100%;
+  margin:20px;
+}
+.testimonial-text{
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+/* Press section */
+#press{
+  background: #ef8172;
+  /* text-align: center; */
+  padding-bottom: 3%;
+}
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+/* Pricing section */
+#pricing{
+  padding: 100px;
+  /* text-align: center; */
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.card-title{
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.card-heading{
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top:5px;
+}
+/* Cta section */
+
+.cta-heading{
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 2;
+  margin-top:5px;
+}
+/* Footer section */
+
+.footer-icon{
+  margin:1%;
+}
+
+@media (max-width:1038px) {
+  #title{
+    text-align: center;
+  }
+
+.title-image{
+  position: static;
+  transform: rotate(0);
+}
+}
